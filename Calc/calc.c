@@ -46,23 +46,23 @@ int docalc(int first, int second, char operator) {
 
 	if(operator == 43) {
 
-			i = first + second;
-		}
+		i = first + second;
+	}
 
-		if(operator == 45) {
+	if(operator == 45) {
 
-			i = first - second;
-		}
+		i = first - second;
+	}
 
-		if(operator == 42) {
+	if(operator == 42) {
 
-			i = first * second;
-		}
+		i = first * second;
+	}
 
-		if(operator == 47) {
+	if(operator == 47) {
 
-			i = first / second;
-		}
+		i = first / second;
+	}
 
 	return i;
 }
