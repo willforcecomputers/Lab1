@@ -53,22 +53,22 @@ int numval(char *word){
 int docalc(int first, int second, char operator) {
 	int i;
 
-	if(operator == '+') {
+	if(operator == 43) {
 
 		i = first + second;
 	}
 
-	if(operator == '-') {
+	if(operator == 45) {
 
 		i = first - second;
 	}
 
-	if(operator == '*') {
+	if(operator == 42) {
 
 		i = first * second;
 	}
 
-	if(operator == '/') {
+	if(operator == 47) {
 
 		i = first / second;
 	}
