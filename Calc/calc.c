@@ -17,11 +17,12 @@ void outahere();
 // returns -1 if the string word cannot be converted into an integer number
 int numval(char *word){
 	int i;
+	int q;
 	i = strlen(word);
 	int numerical = 0;
 	int value = 0;
 
-    for(int q = 0; q < i; q++){
+    for(q = 0; q < i; q++){
      value = word[q];
 
       numerical = numerical * 10;
